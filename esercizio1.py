@@ -1,4 +1,4 @@
-print("\n\n ----ESERCIZIO 1----")
+print("\n\n --------ESERCIZIO 1--------")
 import math
 class point3D:
    def __init__(self,x,y,z):
