@@ -57,13 +57,13 @@ class campionato_sportivo:
    print( "Ultime classificate: \n", n-2, "posto", last3_name,last3_score, "\n", n-1, "posto:",last2_name,last2_score, "\n",n,"posto e ultimo:",last_name, last_score,)
      
         
-print("Benvenuto in questo campionato! Quante squadre vuoi far giocare?")
+print("Quante squadre giocano nel campionato?")
 n=input()
 n=int(n)
 names=[]
 scores=[]
 for i in range(n): 
-  print("Inserisci il nome della squadra",i+1)
+  print("Nome della squadra",i+1)
   squadra=input()
   while squadra in names:
    squadra=input("Questa squadra sta già giocando, scegli un altro nome \n")
